@@ -19,7 +19,7 @@ function unauthorizedResponse() {
         { status: 401 }
     );
 }
-
+ 
 export default async function middleware(req: NextRequest) {
     const { pathname } = req.nextUrl;
 
